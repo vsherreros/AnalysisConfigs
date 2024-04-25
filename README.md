@@ -1,10 +1,8 @@
 # AnalysisConfigs
-Repository containing analysis configurations for PocketCoffea
+Repository containing analysis configurations for PocketCoffea used in the ttH(bb) working group
 
 
 ## Setup
-
-The first step is installing the main `PocketCoffea` package in your python environment. 
 
 Please have a look at the [Installation guide](https://pocketcoffea.readthedocs.io/en/latest/installation.html). 
 
@@ -20,9 +18,6 @@ pip install -e .
 
 This will install the `configs` package in editable mode. 
 
-## Analysis examples
-
-- Simple **Z-> mumu** invariant mass analysis [here](./configs/zmumu)
-
+## Configurations
 
 
