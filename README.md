@@ -33,6 +33,29 @@ pip install -e . # only for the first time
 
 This will install the `configs` package in editable mode. 
 
+## Common pieces
+Some folders inside the `configs` package are meant to contain common pieces of the configuration that can be imported
+by several PocketCoffea configurations. 
+
+- common_datasets: the dataset definition can be common between different channels. The XS of the samples is also stored
+  here centrally. This allows keeping the naming of samples common between channels if possible.
+- common_parameters: parameters configurations can be grouped here. The ideal usecase would be to save here the dumped parameter
+  configuration for specific channels/tests with a meaningful name and version: doing so these parameters set can be
+  imported by different configuration and customized. Using the parameter set name and git version we can also have a
+  stable registry of metadata. 
+- common_functions: common functions to perform selections and operations that are not part of the central PocketCoffea
+  repository. 
+- common_cuts:  registry of Cut objects and functions that can be used by many channels
+
+
 ## Configurations
 
+## ttHbb Run2
+### ttHbb - semileptonic
+### ttHbb - dileptonic
+### ttHbb - fullyhad
 
+## ttHbb Run3
+### ttHbb - semileptonic
+### ttHbb - dileptonic
+### ttHbb - fullyhad
