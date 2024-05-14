@@ -1,0 +1,5 @@
+queue: espresso
+chunksize: 500000
+scaleout: 100
+conda-env: True
+retries: 5

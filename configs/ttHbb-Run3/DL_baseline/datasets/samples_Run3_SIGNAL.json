@@ -1,0 +1,24 @@
+{
+    "TTH_Hto2B":{
+        "sample": "TTH_Hto2B",
+        "json_output"    : "Run3_MC_SIG.json",
+        "files":[
+            { 
+                "das_names": ["/TTH_Hto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22NanoAODv12-130X_mcRun3_2022_realistic_v5-v3/NANOAODSIM"],
+                "metadata": {
+                    "year":"2022_preEE",
+                    "isMC": true,
+		            "xsec": 0.331968
+                }
+            },
+            { 
+                "das_names": ["/TTH_Hto2B_M-125_TuneCP5_13p6TeV_powheg-pythia8/Run3Summer22EENanoAODv12-130X_mcRun3_2022_realistic_postEE_v6-v3/NANOAODSIM"],
+                "metadata": {
+                    "year":"2022_postEE",
+                    "isMC": true,
+		            "xsec": 0.331968
+                }
+            }
+        ]
+    }
+}

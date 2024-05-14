@@ -1,0 +1,89 @@
+{    
+    "DATA_EGamma": {
+        "sample": "DATA_EGamma",
+        "json_output": "Run3_DATA_DoubleEle.json",
+        "files": [
+            {
+                "das_names": [
+                    "/EGamma/Run2022C-22Sep2023-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2022_preEE",
+                    "isMC": false,
+                    "primaryDataset": "EGamma",
+                    "era": "C"
+                }
+            },
+            {
+                "das_names": [
+                    "/EGamma/Run2022D-22Sep2023-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2022_preEE",
+                    "isMC": false,
+                    "primaryDataset": "EGamma",
+                    "era": "D"
+                }
+            },
+            {
+                "das_names": [
+                    "/EGamma/Run2022E-22Sep2023-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2022_postEE",
+                    "isMC": false,
+                    "primaryDataset": "EGamma",
+                    "era": "E"
+                }
+            },
+            {
+                "das_names": [
+                    "/EGamma/Run2022F-22Sep2023-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2022_postEE",
+                    "isMC": false,
+                    "primaryDataset": "EGamma",
+                    "era": "F"
+                }
+            },
+            {
+                "das_names": [
+                    "/EGamma/Run2022G-22Sep2023-v2/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2022_postEE",
+                    "isMC": false,
+                    "primaryDataset": "EGamma",
+                    "era": "G"
+                }
+            },
+            {
+                "das_names": [
+                    "/EGamma0/Run2023C-22Sep2023_v1-v1/NANOAOD", "/EGamma0/Run2023C-22Sep2023_v2-v1/NANOAOD",
+		            "/EGamma0/Run2023C-22Sep2023_v3-v1/NANOAOD", "/EGamma0/Run2023C-22Sep2023_v4-v1/NANOAOD",
+		            "/EGamma1/Run2023C-22Sep2023_v1-v1/NANOAOD", "/EGamma1/Run2023C-22Sep2023_v2-v1/NANOAOD",
+		            "/EGamma1/Run2023C-22Sep2023_v3-v1/NANOAOD", "/EGamma1/Run2023C-22Sep2023_v4-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2023_preBPix",
+                    "isMC": false,
+                    "primaryDataset": "EGamma",
+                    "era": "C"
+                }
+            },
+            {
+                "das_names": [
+                    "/EGamma0/Run2023D-22Sep2023_v1-v1/NANOAOD", "/EGamma0/Run2023D-22Sep2023_v2-v1/NANOAOD",
+		            "/EGamma1/Run2023D-22Sep2023_v1-v1/NANOAOD", "/EGamma1/Run2023D-22Sep2023_v2-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2023_postBPix",
+                    "isMC": false,
+                    "primaryDataset": "EGamma",
+                    "era": "D"
+                }
+            }
+	    ]
+    }
+}

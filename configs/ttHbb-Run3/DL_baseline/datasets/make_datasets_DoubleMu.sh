@@ -1,0 +1,21 @@
+rm Run3_DATA_DoubleMuon_redirector.json Run3_DATA_DoubleMuon.json 
+build_datasets.py \
+    --cfg samples_Run3_DoubleMuon.json \
+    -bs T1_DE_KIT_Disk \
+    -bs T1_FR_CCIN2P3_Disk \
+    -bs T1_IT_CNAF_Disk \
+    -bs T1_IT_CNAF_Tape \
+    -bs T1_RU_JINR_Disk \
+    -bs T1_UK_RAL_Disk \
+    -bs T1_US_FNAL_Disk \
+    -bs T1_UK_RAL_Tape \
+    -bs T2_UA_KIPT \
+    -bs T2_US_MIT \
+    -bs T2_CH_CSCS \
+    -bs T2_RU_IHEP \
+    -bs T2_IT_Bari \
+    -bs T2_IT_Legnaro \
+    -bs T2_IT_Pisa \
+    -bs T2_IT_Rome \
+    -bs T2_DE_DESY \
+    -bs T2_PL_Swierk

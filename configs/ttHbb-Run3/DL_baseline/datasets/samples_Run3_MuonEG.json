@@ -1,0 +1,89 @@
+{
+    "DATA_MuonEG": {
+        "sample": "DATA_MuonEG",
+        "json_output": "Run3_DATA_MuonEG.json",
+        "files": [
+            {
+                "das_names": [
+                    "/MuonEG/Run2022C-22Sep2023-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2022_preEE",
+                    "isMC": false,
+                    "primaryDataset": "MuonEG",
+                    "era": "C"
+                }
+            },
+            {
+                "das_names": [
+                    "/MuonEG/Run2022D-22Sep2023-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2022_preEE",
+                    "isMC": false,
+                    "primaryDataset": "MuonEG",
+                    "era": "D"
+                }
+            },
+            {
+                "das_names": [
+                    "/MuonEG/Run2022E-22Sep2023-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2022_postEE",
+                    "isMC": false,
+                    "primaryDataset": "MuonEG",
+                    "era": "E"
+                }
+            },
+            {
+                "das_names": [
+                    "/MuonEG/Run2022F-22Sep2023-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2022_postEE",
+                    "isMC": false,
+                    "primaryDataset": "MuonEG",
+                    "era": "F"
+                }
+            },
+            {
+                "das_names": [
+                    "/MuonEG/Run2022G-22Sep2023-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2022_postEE",
+                    "isMC": false,
+                    "primaryDataset": "MuonEG",
+                    "era": "G"
+                }
+            },
+			{
+				"das_names": [
+					"/MuonEG/Run2023C-22Sep2023_v1-v1/NANOAOD", 
+					"/MuonEG/Run2023C-22Sep2023_v2-v1/NANOAOD",
+					"/MuonEG/Run2023C-22Sep2023_v3-v1/NANOAOD", 
+					"/MuonEG/Run2023C-22Sep2023_v4-v1/NANOAOD"
+				],
+				"metadata": {
+					"year": "2023_preBPix",
+					"isMC": false,
+					"primaryDataset": "MuonEG",
+					"era": "C"
+				}
+			},
+			{
+                "das_names": [
+                    "/MuonEG/Run2023D-22Sep2023_v1-v1/NANOAOD", 
+                    "/MuonEG/Run2023D-22Sep2023_v2-v1/NANOAOD"
+                ],
+                "metadata": {
+                    "year": "2023_postBPix",
+                    "isMC": false,
+                    "primaryDataset": "DoubleMuon",
+                    "era": "D"
+                }
+            }    
+		]
+    }
+}
