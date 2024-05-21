@@ -1,0 +1,24 @@
+plotting_style:
+
+    
+    opts_mc:
+        histtype: "step"
+        stack: false
+        
+    colors_mc:
+        ttHTobb_ttTo2L2Nu:
+            [1., 0., 0., 1.]
+        ttZToQQ:
+            [0., 0.6, 0., 1.]
+        ttbb_4f_TTTo2L2Nu:
+            [0., 0., 1., 1.]
+    #randomize_colors: true
+            
+         
+    #rescale_samples:
+        #ttHTobb_ttTo2L2Nu: 3
+        #ttZToQQ: 1200
+        #ttbb_4f_TTTo2L2Nu: 350
+        
+        
+
