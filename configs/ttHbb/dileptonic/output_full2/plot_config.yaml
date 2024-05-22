@@ -1,0 +1,38 @@
+plotting_style:
+    
+    labels_mc:
+        ttHTobb_ttTo2L2Nu: $t\bar{t}Hb\bar{b}$_dileptonic
+        ttZToQQ:  $t\bar{t}Z$_$Z\rightarrow q\bar{q}$
+        ttbb_4f_TTTo2L2Nu: $t\bar{t}b\bar{b}$_4f_$t\bar{t}\rightarrow 2\ell 2\nu$ 
+ 
+    opts_mc:
+        histtype: "step"
+        stack: false
+#       linestyle: "dotted"
+#        ttZToQQ:
+#            linestyle: "dotted"
+        
+        
+    linestyle:
+        ttZToQQ: "dotted"    
+        
+    colors_mc:
+        ttHTobb_ttTo2L2Nu:
+            [0., 0., 1., .9]
+        ttZToQQ:
+            [0., 0., 0., 0.75]
+        ttbb_4f_TTTo2L2Nu:
+            [1., 0., 0., .9]
+    
+    
+    
+    #randomize_colors: true
+            
+         
+    #rescale_samples:
+        #ttHTobb_ttTo2L2Nu: 3
+        #ttZToQQ: 1200
+        #ttbb_4f_TTTo2L2Nu: 350
+        
+        
+

@@ -6,9 +6,9 @@ from pocket_coffea.parameters.cuts import passthrough
 from pocket_coffea.lib.columns_manager import ColOut
 
 import cloudpickle
-import workflow_spin
-from workflow_spin import MCProcessor
-cloudpickle.register_pickle_by_value(workflow_spin)
+import workflow_gen_level
+from workflow_gen_level import MCProcessor
+cloudpickle.register_pickle_by_value(workflow_gen_level)
 
 
 # Local imports of functions
@@ -175,7 +175,7 @@ cfg = Configurator(
 
 
 run_options = {
-        "executor"       : "parsl-condor",
+        "executor"       : "parsl-condor@RWTH",
         "env"            : "conda",
         "workers"        : 1,
         "scaleout"       : 10,
@@ -191,6 +191,11 @@ run_options = {
         
     }
    
+if "parsl-condor"  in run_options["executor"]:
+    import cloudpickle
+    cloudpickle.register_pickle_by_value(workflow_gen_level)
+    #cloudpickle.register_pickle_by_value(custom_cut_functions)
+    #cloudpickle.register_pickle_by_value(custom_cuts)
 
 
 

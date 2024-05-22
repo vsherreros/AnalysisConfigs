@@ -49,12 +49,12 @@
           "size": "11929296377"
         },
         "files": [
-          "root://cmsxrootd-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/130000/63DDFFBA-1381-C742-B38E-36F5DFB5AACB.root",
-          "root://cmsxrootd-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/130000/9819699C-74E6-074C-9A8C-EB62B8004E2F.root",
-          "root://cmsxrootd-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/130000/C2087613-B775-C640-B92E-F34DE809AC8F.root",
-          "root://cmsxrootd-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/70000/37600E7B-666E-2040-A0CA-B34470C4209C.root",
-          "root://cmsxrootd-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/70000/DD6F480E-5826-7742-B90F-814A60F82033.root",
-          "root://cmsxrootd-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/70000/E1DF4D2A-B803-9643-BDBE-36B08D5E63F7.root"
+          "root://cmsdcache-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/130000/63DDFFBA-1381-C742-B38E-36F5DFB5AACB.root",
+          "root://cmsdcache-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/130000/9819699C-74E6-074C-9A8C-EB62B8004E2F.root",
+          "root://cmsdcache-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/130000/C2087613-B775-C640-B92E-F34DE809AC8F.root",
+          "root://cmsdcache-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/70000/37600E7B-666E-2040-A0CA-B34470C4209C.root",
+          "root://cmsdcache-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/70000/DD6F480E-5826-7742-B90F-814A60F82033.root",
+          "root://cmsdcache-kit-disk.gridka.de:1094///store/mc/RunIISummer20UL18NanoAODv9/TTbb_4f_TTTo2L2Nu_TuneCP5-Powheg-Openloops-Pythia8/NANOAODSIM/106X_upgrade2018_realistic_v16_L1v1-v1/70000/E1DF4D2A-B803-9643-BDBE-36B08D5E63F7.root"
         ]
       },
       "ttZToQQ_2018": {
@@ -107,9 +107,9 @@
                 "name": "passthrough_f",
                 "module": "pocket_coffea.lib.cut_functions",
                 "src_file": "/nfs/dust/cms/user/victorsh/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-                "f_hash": 8750940522743
+                "f_hash": 8773473691109
               },
-              "id": "passthrough__-4781736982101460614"
+              "id": "passthrough__-1702871342310379364"
             }
           ]
         },
@@ -128,9 +128,9 @@
                 "name": "passthrough_f",
                 "module": "pocket_coffea.lib.cut_functions",
                 "src_file": "/nfs/dust/cms/user/victorsh/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-                "f_hash": 8750940522743
+                "f_hash": 8773473691109
               },
-              "id": "passthrough__-4781736982101460614"
+              "id": "passthrough__-1702871342310379364"
             }
           ]
         },
@@ -149,9 +149,9 @@
                 "name": "passthrough_f",
                 "module": "pocket_coffea.lib.cut_functions",
                 "src_file": "/nfs/dust/cms/user/victorsh/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-                "f_hash": 8750940522743
+                "f_hash": 8773473691109
               },
-              "id": "passthrough__-4781736982101460614"
+              "id": "passthrough__-1702871342310379364"
             }
           ]
         },
@@ -169,9 +169,9 @@
         "name": "passthrough_f",
         "module": "pocket_coffea.lib.cut_functions",
         "src_file": "/nfs/dust/cms/user/victorsh/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-        "f_hash": 8750940522743
+        "f_hash": 8773473691109
       },
-      "id": "passthrough__-4781736982101460614"
+      "id": "passthrough__-1702871342310379364"
     }
   ],
   "preselections": [
@@ -183,9 +183,9 @@
         "name": "passthrough_f",
         "module": "pocket_coffea.lib.cut_functions",
         "src_file": "/nfs/dust/cms/user/victorsh/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-        "f_hash": 8750940522743
+        "f_hash": 8773473691109
       },
-      "id": "passthrough__-4781736982101460614"
+      "id": "passthrough__-1702871342310379364"
     }
   ],
   "categories": {
@@ -200,9 +200,9 @@
             "name": "passthrough_f",
             "module": "pocket_coffea.lib.cut_functions",
             "src_file": "/nfs/dust/cms/user/victorsh/PocketCoffea/pocket_coffea/lib/cut_functions.py",
-            "f_hash": 8750940522743
+            "f_hash": 8773473691109
           },
-          "id": "passthrough__-4781736982101460614"
+          "id": "passthrough__-1702871342310379364"
         }
       ]
     },
@@ -212,7 +212,7 @@
   "workflow": {
     "name": "MCProcessor",
     "workflow_options": {},
-    "srcfile": "/nfs/dust/cms/user/victorsh/PocketCoffea/AnalysisConfigs/configs/ttHbb/dileptonic/workflow_spin.py"
+    "srcfile": "/nfs/dust/cms/user/victorsh/myGitHub/AnalysisConfigs/configs/ttHbb/dileptonic/workflow_gen_level.py"
   },
   "weights": {
     "ttHTobb_ttTo2L2Nu": {

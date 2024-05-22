@@ -1,0 +1,8 @@
+
+
+
+runner.py --cfg tthbb_config.py --test -o output_SpinAll/
+
+merge_outputs.py -i output_ttHTobb_ttTo2L2Nu_2018.coffea output_ttZToQQ_2018.coffea output_ttbb_4f_TTTo2L2Nu_2018.coffea -o output_all.coffea
+
+make_plots.py -i output_all.coffea --cfg parameters_dump.yaml -o Angular/ --overwrite -op plot_config.yaml --density
